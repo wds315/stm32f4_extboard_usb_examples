@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Mywork\ARM\STM32F4x7\STM32F4x7VGT6-DK-A-CD\Code\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Host_Examples\HID\MDK-ARM\USBH_HID.uvproj
+Project File Date:  04/11/2012
+
+<h2>Output:</h2>
+Build target 'STM324xG-EVAL_USBH-FS'
+compiling stm32fxxx_it.c...
+compiling usb_bsp.c...
+compiling main.c...
+compiling usbh_usr.c...
+compiling usbh_usr_lcd.c...
+compiling usbh_stdreq.c...
+compiling usbh_core.c...
+compiling usbh_hcs.c...
+compiling usbh_ioreq.c...
+compiling usbh_hid_mouse.c...
+compiling usbh_hid_core.c...
+compiling usbh_hid_keybd.c...
+compiling usb_hcd_int.c...
+compiling usb_core.c...
+compiling usb_hcd.c...
+compiling lcd_log.c...
+compiling stm324xg_eval_sdio_sd.c...
+compiling stm324xg_eval.c...
+compiling stm324xg_eval_ioe.c...
+compiling stm324xg_eval_lcd.c...
+linking...
+Program Size: Code=17356 RO-data=10492 RW-data=280 ZI-data=3840  
+".\STM324xG-EVAL\STM324xG-EVAL_FS.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Mywork\\ARM\\STM32F4x7\\STM32F4x7VGT6-DK-A-CD\\Code\\STM32_USB-Host-Device_Lib_V2.1.0\\Project\\USB_Host_Examples\\HID\\MDK-ARM\\STM324xG-EVAL\\STM324xG-EVAL_FS.AXF" 
+* JLink Info: Device "STM32F407IG" selected (1024 KB flash, 128 KB RAM).
+Set JLink Project File to "E:\Mywork\ARM\STM32F4x7\STM32F4x7VGT6-DK-A-CD\Code\STM32_USB-Host-Device_Lib_V2.1.0\Project\USB_Host_Examples\HID\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.36l, compiled Dec  2 2011 18:52:36
+Firmware: J-Link ARM V8 compiled Sep 22 2011 16:23:23
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F407IG
+VTarget = 3.267V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M4 r0p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Clean started: Project: 'USBH_HID'
+   deleting intermediate output files for target 'STM322xG-EVAL_USBH-FS'
+   deleting intermediate output files for target 'STM322xG-EVAL_USBH-HS'
+   deleting intermediate output files for target 'STM324xG-EVAL_USBH-FS'
+   deleting intermediate output files for target 'STM324xG-EVAL_USBH-HS'
